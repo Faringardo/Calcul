@@ -51,7 +51,7 @@ public enum Roma {
     }
 
     public static String arabicToRoman(int numbers) {
-        if ((numbers <= 0) || (numbers >=4000)){
+        if ((numbers <= 0) || (numbers >=3999)){
             throw new IllegalArgumentException(numbers + " is not in range [0,4000]");
         }
 
